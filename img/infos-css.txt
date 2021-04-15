@@ -1,0 +1,17 @@
+altura 200px
+largura 30vw
+
+Cores:
+
+Header -  #8f7363
+Intermediario - #E1DAD6
+Escuro - #623B26
+respiro #ffffff
+
+Header: 
+
+1600px x 800px
+
+Fonte:
+
+Base - Open Sans
