@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 200px;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-card {
+    height: 80%;
+}
+p {
+    margin-top:8px;
+}
