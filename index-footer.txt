@@ -1,0 +1,126 @@
+/*header*/
+
+header {
+
+    background-image: url(./img.png/header-back.png);
+    height: 800px;
+    width: 100vw;
+    background-position: center;  
+ }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;   
+ }
+
+a {    
+    text-decoration: none;    
+    padding: 5px;    
+    color: #8f7363; 
+    font-size: 80;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+ .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #8f7363;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #8f7363
+  } 
+
+  .searchButton {
+    width: 60px;
+    height: 36px;
+    border: 1px solid #8f7363;
+    background: #8f7363;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+   .container {
+    width: 30%;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/ footer \
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+<<<<<<< sarah-footer
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body, html {
+height: 100%;
+width: 100%;;   
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.links-content {
+    background-color: royalblue;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourfood {
+   background-color: chartreuse;
+   height: 250px;
+   width: 400px;
+}
+
+.descubra {
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 400px;
+}
+
+.redes {
+    background-color: darkkhaki;
+    height: 250px;
+    width: 400px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 10px;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+#footer {
+    background-color: black;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
