@@ -22,6 +22,8 @@ Print-screen Mobile:
 ![image](https://user-images.githubusercontent.com/81333048/115089412-8bccfb00-9ee8-11eb-95dc-148333d1a573.png)
 ![image](https://user-images.githubusercontent.com/81333048/115089421-95566300-9ee8-11eb-98c3-35ce15d64be5.png)
 
+Paleta de Cores (Base):
+![image](https://user-images.githubusercontent.com/81333048/115089833-93d96a80-9ee9-11eb-9570-261ef617c045.png)
 
 Obrigado(a)! (:
 
