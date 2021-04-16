@@ -1,4 +1,4 @@
-Projeto 4Food
+<b>Projeto 4Food</b>
 
 Primeira versão de um website simplificado.
 
