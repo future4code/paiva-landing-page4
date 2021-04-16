@@ -79,6 +79,15 @@ a {
   /**Fim da formatação do header da dri**/
 
   /*div's- by Daniel*/
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .sobre-nos {
+    height: 100vh;
+  }
   main {
     display: flex;
     flex-direction: column;
