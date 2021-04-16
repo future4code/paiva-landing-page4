@@ -1,32 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>4Food</title>
-    <link type="text/css" rel="stylesheet" href="index-footer.txt">
-</head>
+    <link type="text/css" rel="stylesheet" href="index.css" />
+  </head>
 
-<body>
+  <body>
+      <!--header da dri-->
+    <header>
+      <div class="menu">
+        <a href="">Início</a>
+        <a href="">Pedidos</a>
+        <a href="">Mercado</a>
+        <a href="">Restaurante</a>
+      </div>
+      <div class="logo">
+        <img src="./img/4food-logo.png" alt="testedeimagem">
+      </div>
 
-    <header>         
-        <div class="menu">
-            <a href="">Início</a>
-            <a href="">Pedidos</a>
-            <a href="">Mercado</a> 
-            <a href="">Restaurante</a>               
-        </div>      
-                 
-        <div class="searchBox">
-            <div class="search">
-               <input type="text" class="searchTerm" placeholder="Pesquisar...">
-               <button type="submit" class="searchButton">Buscar</button>                 
-            </div>
-         </div>   
+      <div class="searchBox">
+        <input type="text" class="searchTerm" placeholder="Pesquisar..." />
+        <button type="submit" class="searchButton">Buscar</button>
+      </div>
     </header>
-
+<!--sections-by dani-->
     <main>
-        
+        <!--div com "sobre"-->
+        <section>
+            <div class="card">
+                <img src="./img/card1.png" alt="anuncio1" class="img-card">
+            </div>
+            <div class="card">
+                <img src="./img/card2.png" alt="anuncio2" class="img-card">
+            </div>
+            <div class="card excluir">
+                <img src="./img/card3.png" alt="anuncio3" class="img-card">
+            </div>
+        </section>
+        <!--imagem lateral com texto explicativo-->
+        <section>
+            <div class="descricao">
+                <img src="./img.png/4food-logo.png" alt="supermercado1" class="img-desc">
+                <p>Tá com fome? Deixa com a gente!</p>
+            </div>
+            <div class="descricao">
+                <img src="./img.png/4food-logo.png" alt="supermercado2" class="img-desc">
+                <p>Almoços programados? Tô dentro!</p>
+            </div>
+            <div class="descricao excluir">
+                <img src="./img.png/4food-logo.png" alt="supermercado3" class="img-desc">
+                <p>Entregas de Supermercado e de Restaurantes Semanais</p>
+            </div>
+        </section>
+     <!--imagem banner-->
+            <div>
+                <img src="./img/banner.png" alt="banner" class="banner">
+            </div>
+        <!--listas-->
+        <div class="listas-content">
+            <div class="lista1 excluir2">
+                <h3>Explore por Cidades</h3>
+                <ul>São Paulo</ul>
+                <ul>Campinas</ul>
+                <ul>Rio de Janeiro</ul>
+                <ul>Natal</ul>
+                <ul>Bahia</ul>
+            </div>
+            <div class="lista1">
+                <h3>Veja Mais</h3>
+                <ul>Pedidos</ul>
+                <ul>Promoções</ul>
+                <ul>Cartão Fidelidade</ul>
+                <ul>Melhores Marcas</ul>
 
+            </div>
+            <div class="lista1">
+                <h3>Sessões</h3>
+                <ul>Sessão Vegana</ul>
+                <ul>Sessão Festas</ul>
+                <ul>Sessão Churrasco</ul>
+                <ul>Sessão Light</ul>
+            </div>
+            </div>
+        <!--footer-->
+            <footer>
+                <div class="links-content">
+                    <div class="lista1">
+                        <h3>4Food</h3>
+                        <ul>Site Institucional</ul>
+                        <ul>Fale Conosco</ul>
+                        <ul>Carreiras</ul>
+                        <ul>4Food Colômbia</ul>
+                    </div>
+                    <div class="lista1 excluir2">
+                        <h3>Descubra</h3>
+                        <ul>Cadastre seu Mercado</ul>
+                        <ul>4Food Shop</ul>
+                        <ul>4Food Empresas</ul>
+                        <ul>Blog 4Food Empresas</ul>
+                    </div>
+                    <div class="lista1">
+                        <h3>Redes Sociais</h3>
+                        <a target="_blank" href="https://www.facebook.com/"><img class="midias" src="img/facebook.png"></a>
+                        <a target="_blank" href="https://twitter.com/"><img class="midias" src="img/twitter.png"></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img class="midias" src="img/instagram.png"></a>
+                        <a target="_blank" href="https://www.youtube.com/"><img class="midias" src="img/youtube.png"></a>
+                    </div>
+                </div>
+            </footer>
     </main>
+  </body>
+</html>
