@@ -25,6 +25,6 @@ Print-screen Mobile:
 Paleta de Cores (Base):
 ![image](https://user-images.githubusercontent.com/81333048/115089833-93d96a80-9ee9-11eb-9570-261ef617c045.png)
 
-Obrigado(a)! (:
+Obrigado(a)!
 
 Projeto realizado pelos alunos: Adriana Ferreira, Daniel Ueno e Sarah Migliorini.
