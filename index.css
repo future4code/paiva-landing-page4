@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 /*header*/
 
 
@@ -71,4 +74,3 @@ a {
     top: 90vh;
     left: 30vw;
     transform: translate(-50%, -50%);
-
