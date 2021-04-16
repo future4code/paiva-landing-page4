@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 /*header*/
 
 header {
@@ -62,3 +65,51 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+/*div links*/ 
+
+
+.links {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.links-content {
+    background-color: royalblue;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourfood {
+   background-color: chartreuse;
+   height: 250px;
+   width: 400px;
+}
+
+.descubra {
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 400px;
+}
+
+.redes {
+    background-color: darkkhaki;
+    height: 250px;
+    width: 400px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 10px;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}

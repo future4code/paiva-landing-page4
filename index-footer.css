@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
 /*header*/
 
 header {
@@ -63,26 +72,12 @@ a {
     transform: translate(-50%, -50%);
   }
 
-/ footer \
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-<<<<<<< sarah-footer
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*menus main*/
 
-body, html {
-height: 100%;
-width: 100%;;   
-}
+.listas-content {
 
-.links {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: start;
-}
-
-.links-content {
-    background-color: royalblue;
+    background-color: #E1DAD6;
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -91,36 +86,68 @@ width: 100%;;
     justify-content: space-around;
 }
 
-.fourfood {
-   background-color: chartreuse;
-   height: 250px;
-   width: 400px;
+.lista1 {
+    background-color: #E1DAD6;
+    height: 250px;
+    width: 30vw;
 }
 
-.descubra {
-    background-color: cornflowerblue;
-    height: 250px;
-    width: 400px;
-}
+/*div links*/ 
 
-.redes {
-    background-color: darkkhaki;
+.links-content {
+    background-color: #E1DAD6;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
     height: 250px;
-    width: 400px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    padding-right: 10px;
+    margin: 16px 0px 16px 40px;
+    color: #623B26;
 }
 
 ul {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    margin: 8px 0px 0px 20px;
+    color: #623B26;
 }
 
-#footer {
-    background-color: black;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
+.midias {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px; 
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 599px) {
+ 
+  h3 {
+    margin-left: 8px;
+  }
+
+  ul {
+    font-size: small;
+    margin-left: 8px;
+  }
+
+  .excluir {
+    display: none;
+  }
+
+  .lista1 {
+    width: 50%;
+  }
+
+  .midias {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px; 
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
