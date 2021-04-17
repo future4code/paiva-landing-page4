@@ -19,8 +19,8 @@ tearful-goldfish.surge.sh
 
 <b>Print-screen Mobile:</b>
 ![image](https://user-images.githubusercontent.com/81333048/115089340-6b9d3c00-9ee8-11eb-8592-ba44336a7de8.png)
-![image](https://user-images.githubusercontent.com/81333048/115089412-8bccfb00-9ee8-11eb-95dc-148333d1a573.png)
-![image](https://user-images.githubusercontent.com/81333048/115089421-95566300-9ee8-11eb-98c3-35ce15d64be5.png)
+![image](https://user-images.githubusercontent.com/81333048/115098414-6b139e00-9f06-11eb-8051-fc78ebc48744.png)
+![image](https://user-images.githubusercontent.com/81333048/115098432-8383b880-9f06-11eb-9ed9-2b32fa52da9d.png)
 
 <b>Paleta de Cores (Base):</b>
 ![image](https://user-images.githubusercontent.com/81333048/115089833-93d96a80-9ee9-11eb-9570-261ef617c045.png)
