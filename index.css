@@ -208,7 +208,7 @@ a {
     }
     .descricao {
         width: 100%;
-        justify-content: flex-start;
+        justify-content: center;
         color: #623B26;
 
     }
